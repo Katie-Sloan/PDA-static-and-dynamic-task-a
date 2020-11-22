@@ -30,7 +30,7 @@ class CardGame:
   dif highest_card(self, card1 card2):
   # On line 32, this should be indented.
   if card1.value > card2.value:
-    # On line 33, it should state "return card1".
+    # On line 34, it should state "return card1".
     return card
   else:
     return card2
@@ -38,7 +38,7 @@ class CardGame:
 
 # On line 40, there should be indentation so that the method definition lines up with the previous two method definitions.
 def cards_total(self, cards):
-  # On line 41, total is not defined - it needs to be given a value, for example total = 0. 
+  # On line 42, total is not defined - it needs to be given a value, for example total = 0. 
   total
   for card in cards:
     total += card.value
