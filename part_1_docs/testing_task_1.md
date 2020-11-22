@@ -43,7 +43,7 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     # On line 47, the return statement needs to be placed outside of the for loop, because otherwise the statement will be returned for each card in cards.
-    # Also, total needs to be converted to a string, as it will not be possible to concatenate a string with an integer.  A space will aso need to be inserted for readability.
+    # Also, total needs to be converted to a string, as it will not be possible to concatenate a string with an integer.  A space will also need to be inserted for readability.
     return "You have a total of" + total
   
 ```
